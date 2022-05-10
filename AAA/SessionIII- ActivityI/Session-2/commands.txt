@@ -1,0 +1,8 @@
+Ctrl + Shift + Ñ => Abrimos la terminal
+Shift + Alt + F => Indentamos el código (organizar)
+Shift + Alt + A => Hacer comentarios en el código
+Ctrl + S => Guardamos los cambios del archivo
+Activar autoguardado => Archivo > Autoguardado (Autosave)
+
+
+
