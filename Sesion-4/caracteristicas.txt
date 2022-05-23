@@ -1,0 +1,3 @@
+UpperCamelCase = Nombrar carpetas
+lowerCamelCase = Nombrar archivos del proyecto
+snake_case = Nombrar variables y clases
