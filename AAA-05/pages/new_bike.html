@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="./description_bike.html">Description</a></li>
+        <li><a href="./new_bike.html">New bike</a></li>
+        <li><a href="./new_bike.html">Contact</a></li>
+        <li><a class="active" href="./index.html">Home</a></li>
+
+        <!-- última opción del menu horizontal se alineara a la derecha -->
+        <img
+          src="../assets/png/logo.png"
+          alt=""
+          style="float: right"
+          width="60px"
+        />
+      </ul>
+    </div>
+    <div class="container">
+      <block>
+        <form>
+          <label for="brand">Marca bicicleta</label>
+          <input
+            type="text"
+            name="brand"
+            id="brand"
+            placeholder="Marca bicicleta"
+          />
+
+          <label for="cant">Cantidad</label>
+          <input type="number" name="cant" id="cant" />
+
+          <label for="stock">Inventario</label>
+          <input type="number" name="stock" id="stock" />
+        </form>
+        <button onclick="bike_data()">Aceptar</button>
+      </block>
+      <block>
+        <output id="invoce_bike"></output>
+      </block>
+    </div>
+  </body>
+  <script src="../js/bike_form.js"></script>
+</html>

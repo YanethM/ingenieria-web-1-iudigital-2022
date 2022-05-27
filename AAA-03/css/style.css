@@ -1,0 +1,53 @@
+.card{
+    box-shadow: 0px 4px 8px 0 rgba(156, 163, 164);
+    border-radius: 5px;
+    width: 500px;
+}
+
+.card:hover{
+    box-shadow: 0px 8px 16px 0 rgb(13, 85, 96);
+}
+
+.container{
+    padding-top: 2px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 2px;
+    margin: auto;
+}
+
+.text-style{
+    font-family: 'Segoe UI';
+    font-size: small;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 3px;
+    padding: 6px;
+    width: 200px;
+    background-color: lightgray;
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: gray;
+    color: azure;
+}
+
+.active{
+    background-color: gray;
+    color: blue;
+}
+
+li{
+    text-align: center;
+    border-bottom: 1px solid #555;
+}

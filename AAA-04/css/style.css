@@ -1,0 +1,35 @@
+div{
+    /* display: inline; */
+    display: flex;
+    margin-bottom: 5px;
+    background-color: gray;
+    /* De izquierda a derecha */
+    flex-direction: row;
+}
+
+p{
+    width: 100px;
+    border: rgb(87, 28, 28) 1px solid;
+    margin: 2px;
+}
+
+.en-linea{
+    display: inline-flex;
+    margin-bottom: 5px;
+    background-color: gray;
+}
+
+.derecha-izquierda{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contenido-vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-vertical-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
