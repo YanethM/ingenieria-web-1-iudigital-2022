@@ -1,3 +1,34 @@
-img{
-    height: 350px;
+nav {
+  height: 60px;
+}
+
+a img {
+  width: 70px;
+}
+
+.card-image img {
+  width: 400px;
+  height: 400px;
+}
+
+.card-image .img-card:hover {
+  /* object-fit: cover; */
+  transform: scale(1.5);
+}
+
+.container {
+  padding-top: 90px;
+}
+
+.footer-copyright {
+  height: 60px;
+}
+
+.content-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
 }
