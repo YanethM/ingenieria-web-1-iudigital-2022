@@ -1,0 +1,36 @@
+.brand-logo img {
+  width: 50px;
+  height: 55px;
+}
+
+.img-logo {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.card-image img{
+    width: 400px;
+    height: 250px;
+}
+
+.container{
+    padding-top: 100px;
+}
+
+.footer-copyright{
+    height: 35px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.page-footer{
+    background-color: #82b1ff ;
+}
+
+nav{
+    background-color: #82b1ff ;
+}
