@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">
+          <img src="" alt="" />
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./card_products.html">Productos</a></li>
+          <li><a href="./new_product.html">Nuevo producto</a></li>
+
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h4>Agregar producto</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <!-- Nombre del producto -->
+            <div class="input-field col s6">
+              <input
+                placeholder="Placeholder"
+                id="name_product"
+                type="text"
+                class="validate"
+              />
+              <label for="name_product">Producto</label>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Cargue de la imagen -->
+            <div class="file-field input-field">
+              <div class="btn">
+                <span>File</span>
+                <input type="file" />
+              </div>
+              <div class="file-path-wrapper">
+                <input
+                  class="file-path validate"
+                  type="text"
+                  id="image_product"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <input
+                placeholder="Placeholder"
+                id="price_product"
+                type="number"
+                class="validate"
+              />
+              <label for="price_product">Precio</label>
+            </div>
+            <div class="input-field col s6">
+              <input
+                placeholder="Placeholder"
+                id="quantity_product"
+                type="number"
+                class="validate"
+              />
+              <label for="quantity_product">Cantidad</label>
+            </div>
+          </div>
+        </form>
+        <a class="waves-effect waves-light btn" id="btnAddProduct"
+          ><i class="material-icons left">cloud</i>Añadir producto</a
+        >
+      </div>
+      <!-- Listar los productos -->
+      <div id="listProducts"></div>
+      
+    </div>
+  </body>
+  <!-- Compiled and minified JavaScript -->
+  <script src="./js/new_product.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
